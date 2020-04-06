@@ -100,7 +100,7 @@ class HomeMaticPowermeter extends HMBase
                 case "ENERGY_COUNTER":
                     $this->HMSufix = '';
                     $Profil = "~Electricity";
-                    $this->HMFactor = 1000;
+                    $this->HMFactor = 1;
                     break;
             }
 
